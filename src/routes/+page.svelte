@@ -1,29 +1,29 @@
-<div class="mx-auto mt-20 flex max-w-5xl flex-col space-y-8 text-center lg:mt-32">
+<div class="mx-auto mt-20 flex max-w-5xl flex-col space-y-8 text-center">
 	<div class="text-5xl font-bold text-slate-900 dark:text-slate-100 md:text-7xl">
 		<!-- A cross-platform <span class="text-red-400">Rust</span> GUI library focused on simplicity and type-safety -->
 		Build type-safe cross-platform GUI applications in <span class="text-red-400">Rust</span>
 	</div>
 	<div class="flex justify-center space-x-6">
-		<a href="https://docs.rs/iced/" class="rounded-lg bg-sky-500 px-4 py-3 font-semibold text-white hover:bg-sky-400">Get Started</a>
-		<a href="https://docs.rs/iced/" class="rounded-lg bg-slate-600 px-4 py-3 font-semibold text-white hover:bg-slate-500 dark:bg-slate-800 dark:hover:bg-slate-700">Contribute</a>
+		<a href="https://docs.rs/iced/" class="rounded-lg bg-sky-500 px-4 py-3 font-semibold text-white drop-shadow-2xl hover:bg-sky-400">Get Started</a>
+		<a href="https://github.com/iced-rs/iced/" class="rounded-lg bg-slate-600 px-4 py-3 font-semibold text-white drop-shadow-2xl hover:bg-slate-500 dark:bg-slate-800 dark:hover:bg-slate-700">Contribute</a>
 	</div>
 </div>
 
 <div class="mx-auto mt-16 flex max-w-7xl flex-col items-center justify-between fill-slate-700 text-center dark:fill-slate-100 lg:flex-row">
-	<div class="flex max-w-lg flex-col">
-		<svg viewBox="0 0 50 50" class="h-60 "><path d="M34 23h-2v-4c0-3.9-3.1-7-7-7s-7 3.1-7 7v4h-2v-4c0-5 4-9 9-9s9 4 9 9v4z" /><path d="M33 40H17c-1.7 0-3-1.3-3-3V25c0-1.7 1.3-3 3-3h16c1.7 0 3 1.3 3 3v12c0 1.7-1.3 3-3 3zM17 24c-.6 0-1 .4-1 1v12c0 .6.4 1 1 1h16c.6 0 1-.4 1-1V25c0-.6-.4-1-1-1H17z" /><circle cx="25" cy="28" r="2" /><path d="M25.5 28h-1l-1 6h3z" /></svg>
+	<div class="mt-5 flex max-w-sm flex-col">
+		<svg height="128" viewBox="0 0 48 48"><path d="m17.3 45-3.8-6.5-7.55-1.55.85-7.35L2 24l4.8-5.55-.85-7.35 7.55-1.55L17.3 3 24 6.1 30.7 3l3.85 6.55 7.5 1.55-.85 7.35L46 24l-4.8 5.6.85 7.35-7.5 1.55L30.7 45 24 41.9Zm1.35-3.95L24 38.8l5.5 2.25 3.35-5 5.85-1.5-.6-5.95 4.05-4.6-4.05-4.7.6-5.95-5.85-1.4-3.45-5L24 9.2l-5.5-2.25-3.35 5-5.85 1.4.6 5.95L5.85 24l4.05 4.6-.6 6.05 5.85 1.4ZM24 24Zm-2.15 6.65L33.2 19.4l-2.25-2.05-9.1 9-4.75-4.95-2.3 2.25Z" /></svg>
 		<div class="text-5xl text-slate-700 dark:text-slate-100">Simple</div>
-		Iced is inspired by the Elm architecture, which gives a which gives it a simplicity that anyone can appreciate.
+		Iced is inspired by the Elm architecture, which gives it a simplicity that anyone can appreciate.
 	</div>
-	<div class="flex max-w-lg flex-col">
-		<svg viewBox="0 0 50 50" class="h-60"><path d="M34 23h-2v-4c0-3.9-3.1-7-7-7s-7 3.1-7 7v4h-2v-4c0-5 4-9 9-9s9 4 9 9v4z" /><path d="M33 40H17c-1.7 0-3-1.3-3-3V25c0-1.7 1.3-3 3-3h16c1.7 0 3 1.3 3 3v12c0 1.7-1.3 3-3 3zM17 24c-.6 0-1 .4-1 1v12c0 .6.4 1 1 1h16c.6 0 1-.4 1-1V25c0-.6-.4-1-1-1H17z" /><circle cx="25" cy="28" r="2" /><path d="M25.5 28h-1l-1 6h3z" /></svg>
+	<div class="mt-5 flex max-w-sm flex-col">
+		<svg height="128" viewBox="0 0 48 48"><path d="M11 44q-1.25 0-2.125-.875T8 41V19.3q0-1.25.875-2.125T11 16.3h3.5v-4.8q0-3.95 2.775-6.725Q20.05 2 24 2q3.95 0 6.725 2.775Q33.5 7.55 33.5 11.5v4.8H37q1.25 0 2.125.875T40 19.3V41q0 1.25-.875 2.125T37 44Zm0-3h26V19.3H11V41Zm13-7q1.6 0 2.725-1.1t1.125-2.65q0-1.5-1.125-2.725T24 26.3q-1.6 0-2.725 1.225T20.15 30.25q0 1.55 1.125 2.65Q22.4 34 24 34Zm-6.5-17.7h13v-4.8q0-2.7-1.9-4.6Q26.7 5 24 5q-2.7 0-4.6 1.9-1.9 1.9-1.9 4.6ZM11 41V19.3 41Z" /></svg>
 		<div class="text-5xl text-slate-700 dark:text-slate-100">Type Safe</div>
-		So your types mean something
+		So you can debug errors in devopment instead of in production.
 	</div>
-	<div class="flex max-w-lg flex-col">
-		<svg viewBox="0 0 122.88 106.3" class="h-36"><g><path d="M58.15,52.98l28.6-18.22c0.2-0.15,0.48-0.12,0.65,0.06l2.76,2.94c0.17,0.18,0.18,0.47,0.02,0.66L68.51,63.6 c-3.08,3.31-6.37,3.96-9.02,3.1c-1.32-0.43-2.47-1.22-3.35-2.25c-0.88-1.02-1.49-2.27-1.74-3.61c-0.49-2.67,0.49-5.66,3.73-7.85 L58.15,52.98L58.15,52.98z M19.33,106.17c-3.05-2.87-5.8-6.05-8.21-9.48c-2.39-3.4-4.44-7.06-6.11-10.91 C3.38,82,2.12,78.02,1.26,73.88C0.44,69.86,0,65.7,0,61.44c0-8.32,1.66-16.25,4.65-23.49C7.77,30.43,12.33,23.66,18,18 c5.66-5.66,12.43-10.23,19.95-13.34C45.19,1.66,53.12,0,61.44,0c8.3,0,16.21,1.66,23.43,4.66c7.52,3.12,14.28,7.7,19.95,13.37 c5.68,5.68,10.26,12.46,13.38,19.97c3.01,7.24,4.68,15.16,4.68,23.44c0,4.05-0.4,8.01-1.16,11.85c-0.78,3.94-1.95,7.75-3.46,11.4 c-1.54,3.71-3.43,7.25-5.64,10.55c-2.23,3.34-4.78,6.45-7.6,9.3c-0.19,0.19-0.51,0.19-0.7,0l-3.07-3.06 c-0.06-0.02-0.12-0.06-0.17-0.11l-8.56-8.56c-0.19-0.19-0.19-0.51,0-0.7l4.49-4.49c0.19-0.19,0.51-0.19,0.7,0l6.61,6.61 c1.4-1.82,2.69-3.72,3.85-5.7c1.25-2.12,2.35-4.34,3.3-6.63c1.28-3.1,2.29-6.35,2.97-9.71c0.64-3.12,1-6.35,1.07-9.64h-9.11 c-0.27,0-0.5-0.22-0.5-0.5V55.7c0-0.27,0.22-0.5,0.5-0.5h8.76c-0.68-5.85-2.31-11.43-4.72-16.58c-2.49-5.31-5.82-10.15-9.82-14.37 l-5.86,5.86c-0.19,0.19-0.51,0.19-0.7,0l-4.49-4.49c-0.19-0.19-0.19-0.51,0-0.7l5.65-5.65c-4.44-3.57-9.45-6.46-14.87-8.5 C75.1,8.8,69.47,7.62,63.6,7.39v8.03c0,0.27-0.22,0.5-0.5,0.5h-6.36c-0.27,0-0.5-0.22-0.5-0.5V7.59 c-5.83,0.55-11.4,2.04-16.54,4.29c-5.31,2.33-10.17,5.49-14.42,9.3l5.87,5.87c0.19,0.19,0.19,0.51,0,0.7l-4.49,4.49 c-0.19,0.19-0.51,0.19-0.7,0l-5.8-5.8c-3.73,4.4-6.78,9.41-8.96,14.86C9.1,46.6,7.79,52.29,7.44,58.23h9.03 c0.27,0,0.5,0.22,0.5,0.5v6.36c0,0.27-0.22,0.5-0.5,0.5H7.5c0.22,2.94,0.68,5.8,1.35,8.58c0.72,3.01,1.7,5.92,2.91,8.72 c1.05,2.43,2.27,4.76,3.64,6.98c1.29,2.09,2.72,4.09,4.28,5.97l7.24-7.24c0.19-0.19,0.51-0.19,0.7,0l4.49,4.49 c0.19,0.19,0.19,0.51,0,0.7c-4.14,4.14-8.09,8.11-12.09,12.36C19.84,106.35,19.53,106.36,19.33,106.17L19.33,106.17z" /></g></svg>
+	<div class="mt-5 flex max-w-sm flex-col">
+		<svg height="128" viewBox="0 0 48 48"><path d="M20.35 31.75q1.15 1.15 3.325 1.075 2.175-.075 3.175-1.625l10.8-16.95L20.9 25.2q-1.5 1-1.6 3.2-.1 2.2 1.05 3.35Zm3.55-23.7q2.85 0 5.95.925t5.95 3.175L33.2 14q-2.25-1.5-4.825-2.225-2.575-.725-4.475-.725-7 0-11.95 5Q7 21.05 7 28.2q0 2.25.625 4.55T9.4 37h28.95q1.1-1.8 1.75-4.2.65-2.4.65-4.7 0-2.1-.625-4.525Q39.5 21.15 37.9 19.1l1.95-2.6q1.9 2.8 2.85 5.625.95 2.825 1.05 5.675.1 3-.6 5.65-.7 2.65-2.05 4.9-.6 1.15-1.275 1.4-.675.25-1.675.25H9.6q-.85 0-1.675-.425Q7.1 39.15 6.7 38.35q-1.3-2.4-2-4.875T4 28.2q0-4.15 1.575-7.825t4.275-6.4q2.7-2.725 6.325-4.325t7.725-1.6Zm-.45 16.55Z" /></svg>
 		<div class="text-5xl text-slate-700 dark:text-slate-100">Performant</div>
-		wgpu supports supports Vulkan, Metal and DX12 so iced will be fast on any platform
+		wgpu supports Vulkan, Metal and DX12, so iced will have a performant backend on any platform.
 	</div>
 </div>
 
