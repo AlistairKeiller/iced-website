@@ -1,11 +1,16 @@
+<svelte:head>
+	<title>Iced Homepage</title>
+	<meta name="description" content="Iced Rust cross platform type safe performant GUI framework DirectX 12, DX12, Vulkan, Metal simple easy to use responsive batteries included API" />
+</svelte:head>
+
 <div class="mx-auto mt-20 flex max-w-5xl flex-col space-y-8 text-center">
 	<div class="text-5xl font-bold text-slate-900 dark:text-slate-100 md:text-7xl">
 		<!-- A cross-platform <span class="text-red-400">Rust</span> GUI library focused on simplicity and type-safety -->
 		Build type-safe cross-platform GUI applications in <span class="text-red-500 dark:text-red-400">Rust</span>
 	</div>
 	<div class="flex justify-center space-x-6">
-		<a href="https://docs.rs/iced/" class="rounded-lg bg-sky-500 px-4 py-3 font-semibold text-white drop-shadow-2xl hover:bg-sky-400">Get Started</a>
-		<a href="https://github.com/iced-rs/iced/" class="rounded-lg bg-slate-600 px-4 py-3 font-semibold text-white drop-shadow-2xl hover:bg-slate-500 dark:bg-slate-800 dark:hover:bg-slate-700">Contribute</a>
+		<a class="rounded-lg bg-sky-500 px-4 py-3 font-semibold text-white drop-shadow-2xl hover:bg-sky-400" href="https://docs.rs/iced/">Get Started</a>
+		<a class="rounded-lg bg-slate-600 px-4 py-3 font-semibold text-white drop-shadow-2xl hover:bg-slate-500 dark:bg-slate-800 dark:hover:bg-slate-700" href="https://github.com/iced-rs/iced/">Contribute</a>
 	</div>
 </div>
 
