@@ -1,7 +1,7 @@
 <div class="mx-auto mt-20 flex max-w-5xl flex-col space-y-8 text-center">
 	<div class="text-5xl font-bold text-slate-900 dark:text-slate-100 md:text-7xl">
 		<!-- A cross-platform <span class="text-red-400">Rust</span> GUI library focused on simplicity and type-safety -->
-		Build type-safe cross-platform GUI applications in <span class="text-red-400">Rust</span>
+		Build type-safe cross-platform GUI applications in <span class="text-red-500 dark:text-red-400">Rust</span>
 	</div>
 	<div class="flex justify-center space-x-6">
 		<a href="https://docs.rs/iced/" class="rounded-lg bg-sky-500 px-4 py-3 font-semibold text-white drop-shadow-2xl hover:bg-sky-400">Get Started</a>
@@ -9,7 +9,7 @@
 	</div>
 </div>
 
-<div class="mx-auto mt-16 flex max-w-7xl flex-col items-center justify-between fill-slate-700 text-center dark:fill-slate-100 lg:flex-row">
+<div class="mx-auto mt-16 flex max-w-7xl flex-col items-center justify-between fill-slate-700 text-center dark:fill-slate-200 lg:flex-row">
 	<div class="mt-5 flex max-w-sm flex-col">
 		<svg height="128" viewBox="0 0 48 48"><path d="m17.3 45-3.8-6.5-7.55-1.55.85-7.35L2 24l4.8-5.55-.85-7.35 7.55-1.55L17.3 3 24 6.1 30.7 3l3.85 6.55 7.5 1.55-.85 7.35L46 24l-4.8 5.6.85 7.35-7.5 1.55L30.7 45 24 41.9Zm1.35-3.95L24 38.8l5.5 2.25 3.35-5 5.85-1.5-.6-5.95 4.05-4.6-4.05-4.7.6-5.95-5.85-1.4-3.45-5L24 9.2l-5.5-2.25-3.35 5-5.85 1.4.6 5.95L5.85 24l4.05 4.6-.6 6.05 5.85 1.4ZM24 24Zm-2.15 6.65L33.2 19.4l-2.25-2.05-9.1 9-4.75-4.95-2.3 2.25Z" /></svg>
 		<div class="text-5xl text-slate-700 dark:text-slate-100">Simple</div>
