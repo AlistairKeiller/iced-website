@@ -36,7 +36,8 @@
 	</div>
 </div>
 
-<pre class="mx-auto mt-12 flex max-w-3xl rounded-xl bg-slate-800">
+<div class="mx-auto mt-20 flex w-min flex-col items-center lg:flex-row">
+	<pre class="flex rounded-xl bg-slate-800">
 <div class="hidden select-none pl-4 pr-8 text-right md:block">1
 2
 3
@@ -88,7 +89,7 @@
 49
 50</div>
 <code class="text-white"
-		><span class="text-blue-400">use</span> <span class="text-green-400">iced</span>::<span class="text-green-400">widget</span>::<span class="text-yellow-400">{`{`}</span><span class="text-yellow-200">button</span>, <span class="text-yellow-200">column</span>, <span class="text-yellow-200">text</span><span class="text-yellow-400">{`}`}</span>;
+			><span class="text-blue-400">use</span> <span class="text-green-400">iced</span>::<span class="text-green-400">widget</span>::<span class="text-yellow-400">{`{`}</span><span class="text-yellow-200">button</span>, <span class="text-yellow-200">column</span>, <span class="text-yellow-200">text</span><span class="text-yellow-400">{`}`}</span>;
 <span class="text-blue-400">use</span> <span class="text-green-400">iced</span>::<span class="text-yellow-400">{`{`}</span><span class="text-green-400">Alignment</span>, <span class="text-green-400">Element</span>, <span class="text-green-400">Sandbox</span>, <span class="text-green-400">Settings</span><span class="text-yellow-400">{`}`}</span>;
 
 <span class="text-blue-400">pub fn</span> <span class="text-yellow-200">main</span><span class="text-yellow-400">()</span> -> <span class="text-green-400">iced</span>::<span class="text-green-400">Result</span> <span class="text-yellow-400">{`{`}</span>
@@ -140,5 +141,10 @@
 <span class="text-yellow-400">{`}`}</span>
 </code>
 </pre>
-
-<!-- <img src="src/routes/ecosystem.png" alt="diagram of iced's architecture" class="mx-auto mt-8" /> -->
+	<div class="m-10 w-[140px] overflow-hidden rounded-lg">
+		<video loop autoplay controls>
+			<source src="src/routes/demo.mp4" type="video/mp4" />
+			<track kind="captions" />
+		</video>
+	</div>
+</div>
