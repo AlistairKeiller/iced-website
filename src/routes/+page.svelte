@@ -5,7 +5,6 @@
 
 <div class="mx-auto mt-20 flex max-w-5xl flex-col space-y-8 text-center">
 	<div class="text-5xl font-bold text-slate-900 dark:text-slate-100 md:text-7xl">
-		<!-- A cross-platform <span class="text-red-400">Rust</span> GUI library focused on simplicity and type-safety -->
 		Build type-safe cross-platform GUI applications in <span class="text-red-500 dark:text-red-400">Rust</span>
 	</div>
 	<div class="flex justify-center space-x-6">
@@ -22,7 +21,7 @@
 	</div>
 	<div class="flex flex-col">
 		<svg height="128" viewBox="0 0 48 48"><path d="M11 44q-1.25 0-2.125-.875T8 41V19.3q0-1.25.875-2.125T11 16.3h3.5v-4.8q0-3.95 2.775-6.725Q20.05 2 24 2q3.95 0 6.725 2.775Q33.5 7.55 33.5 11.5v4.8H37q1.25 0 2.125.875T40 19.3V41q0 1.25-.875 2.125T37 44Zm0-3h26V19.3H11V41Zm13-7q1.6 0 2.725-1.1t1.125-2.65q0-1.5-1.125-2.725T24 26.3q-1.6 0-2.725 1.225T20.15 30.25q0 1.55 1.125 2.65Q22.4 34 24 34Zm-6.5-17.7h13v-4.8q0-2.7-1.9-4.6Q26.7 5 24 5q-2.7 0-4.6 1.9-1.9 1.9-1.9 4.6ZM11 41V19.3 41Z" /></svg>
-		<div class="text-5xl text-slate-700 dark:text-slate-100">Type-Safe</div>
+		<div class="text-5xl text-slate-700 dark:text-slate-100">Type-safe</div>
 		Iced uses reactive programming model to ensure your UI is meaningful.
 	</div>
 	<div class="flex flex-col">
@@ -36,5 +35,110 @@
 		Iced ecosystem is split into reusable parts.
 	</div>
 </div>
+
+<pre class="mx-auto mt-12 flex max-w-3xl rounded-xl bg-slate-800">
+<div class="hidden select-none pl-4 pr-8 text-right md:block">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50</div>
+<code class="text-white"
+		><span class="text-blue-400">use</span> <span class="text-green-400">iced</span>::<span class="text-green-400">widget</span>::<span class="text-yellow-400">{`{`}</span><span class="text-yellow-200">button</span>, <span class="text-yellow-200">column</span>, <span class="text-yellow-200">text</span><span class="text-yellow-400">{`}`}</span>;
+<span class="text-blue-400">use</span> <span class="text-green-400">iced</span>::<span class="text-yellow-400">{`{`}</span><span class="text-green-400">Alignment</span>, <span class="text-green-400">Element</span>, <span class="text-green-400">Sandbox</span>, <span class="text-green-400">Settings</span><span class="text-yellow-400">{`}`}</span>;
+
+<span class="text-blue-400">pub fn</span> <span class="text-yellow-200">main</span><span class="text-yellow-400">()</span> -> <span class="text-green-400">iced</span>::<span class="text-green-400">Result</span> <span class="text-yellow-400">{`{`}</span>
+	<span class="text-green-400">Counter</span>::<span class="text-yellow-200">run</span><span class="text-pink-400">(</span><span class="text-green-400">Settings</span>::<span class="text-blue-400"><span class="text-yellow-200">default</span>()</span><span class="text-pink-400">)</span>
+<span class="text-yellow-400">{`}`}</span>
+
+<span class="text-blue-400">struct</span> <span class="text-green-400">Counter</span> <span class="text-yellow-400">{`{`}</span>
+    <span class="text-sky-200">value</span>: <span class="text-green-400">i32</span>,
+<span class="text-yellow-400">{`}`}</span>
+
+#<span class="text-yellow-400">[</span><span class="text-yellow-200">derive</span><span class="text-pink-400">(</span><span class="text-green-400">Debug</span>, <span class="text-green-400">Clone</span>, <span class="text-green-400">Copy</span><span class="text-pink-400">)</span><span class="text-yellow-400">]</span>
+<span class="text-blue-400">enum</span> <span class="text-green-400">Message</span> <span class="text-yellow-400">{`{`}</span>
+    <span class="text-sky-400">IncrementPressed</span>,
+    <span class="text-sky-400">DecrementPressed</span>,
+<span class="text-yellow-400">{`}`}</span>
+	
+<span class="text-blue-400">impl</span> <span class="text-green-400">Sandbox</span> <span class="text-blue-400">for</span> <span class="text-green-400">Counter</span> <span class="text-yellow-400">{`{`}</span>
+    <span class="text-blue-400">type</span> <span class="text-green-400">Message</span> = <span class="text-green-400">Message</span>;
+
+    <span class="text-blue-400">fn</span> <span class="text-yellow-200">new</span><span class="text-pink-400">()</span> -> <span class="text-blue-400">Self</span> <span class="text-pink-400">{`{`}</span>
+        <span class="text-blue-400">Self</span> <span class="text-sky-500">{`{`}</span> <span class="text-sky-200">value</span>: <span class="text-green-200">0</span> <span class="text-sky-500">{`}`}</span>
+    <span class="text-pink-400">{`}`}</span>
+
+    <span class="text-blue-400">fn</span> <span class="text-yellow-200">title</span><span class="text-green-400"><span class="text-pink-400">(</span></span>&<span class="text-blue-400">self</span><span class="text-pink-400">)</span> -> <span class="text-green-400">String</span> <span class="text-pink-400">{`{`}</span>
+        <span class="text-green-400">String</span>::<span class="text-yellow-200">from</span><span class="text-sky-500">(</span><span class="text-orange-400">"Counter - Iced"</span><span class="text-sky-500">)</span>
+    <span class="text-pink-400">{`}`}</span>
+
+    <span class="text-blue-400">fn</span> <span class="text-yellow-200">update</span><span class="text-pink-400">(</span>&<span class="text-blue-400">mut self</span>, <span class="text-sky-200">message</span>: <span class="text-green-400">Message</span><span class="text-pink-400">) {`{`}</span>
+        <span class="text-fuchsia-400">match</span> <span class="text-sky-200">message</span> <span class="text-sky-500">{`{`}</span>
+            <span class="text-green-400">Message</span>::<span class="text-sky-400">IncrementPressed</span> => <span class="text-yellow-400">{`{`}</span>
+                <span class="text-blue-400">self</span>.<span class="text-sky-200">value</span> += <span class="text-green-200">1</span>;
+            <span class="text-yellow-400">{`}`}</span>
+            <span class="text-green-400">Message</span>::<span class="text-sky-400">DecrementPressed</span> => <span class="text-yellow-400">{`{`}</span>
+                <span class="text-blue-400">self</span>.<span class="text-sky-200">value</span> -= <span class="text-green-200">1</span>;
+            <span class="text-yellow-400">{`}`}</span>
+        <span class="text-sky-500">{`}`}</span>
+    <span class="text-pink-400">{`}`}</span>
+
+    <span class="text-blue-400">fn</span> <span class="text-yellow-200">view</span><span class="text-pink-400">(</span>&<span class="text-blue-400">self</span><span class="text-pink-400">)</span> -> <span class="text-green-400">Element</span>{`<`}<span class="text-green-400">Message</span>{`>`} <span class="text-pink-400">{`{`}</span>
+        <span class="text-blue-400">column!</span><span class="text-sky-500">[</span>
+            <span class="text-yellow-200">button</span><span class="text-yellow-400">(</span><span class="text-orange-400">"Increment"</span><span class="text-yellow-400">)</span>.<span class="text-yellow-200">on_press</span><span class="text-yellow-400">(</span><span class="text-green-400">Message</span>::<span class="text-green-400">IncrementPressed</span><span class="text-yellow-400">)</span>,
+            <span class="text-yellow-200">text</span><span class="text-yellow-400">(</span><span class="text-blue-400">self</span>.value<span class="text-yellow-400">)</span>.<span class="text-yellow-200">size</span><span class="text-yellow-400">(</span><span class="text-green-200">50</span><span class="text-yellow-400">)</span>,
+            <span class="text-yellow-200">button</span><span class="text-yellow-400">(</span><span class="text-orange-400">"Decrement"</span><span class="text-yellow-400">)</span>.<span class="text-yellow-200">on_press</span><span class="text-yellow-400">(</span><span class="text-green-400">Message</span>::<span class="text-green-400">DecrementPressed</span><span class="text-yellow-400">)</span>
+        <span class="text-sky-500">]</span>
+        .<span class="text-yellow-200">padding</span><span class="text-sky-500">(</span><span class="text-green-200">20</span><span class="text-sky-500">)</span>
+        .<span class="text-yellow-200">align_items</span><span class="text-sky-500">(</span><span class="text-green-400">Alignment</span>::<span class="text-sky-400">Center</span><span class="text-sky-500">)</span>
+        .<span class="text-yellow-200">into</span><span class="text-sky-500">()</span>
+    <span class="text-pink-400">{`}`}</span>
+<span class="text-yellow-400">{`}`}</span>
+</code>
+</pre>
 
 <!-- <img src="src/routes/ecosystem.png" alt="diagram of iced's architecture" class="mx-auto mt-8" /> -->
