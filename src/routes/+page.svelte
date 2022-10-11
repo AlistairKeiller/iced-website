@@ -143,7 +143,7 @@
 </pre>
 	<div class="m-10 w-[140px] overflow-hidden rounded-lg">
 		<video loop autoplay controls>
-			<source src="src/routes/demo.mp4" type="video/mp4" />
+			<source src="demo.mp4" type="video/mp4" />
 			<track kind="captions" />
 		</video>
 	</div>
