@@ -37,8 +37,8 @@
 	</div>
 </div>
 
-<div class="mx-auto mt-16 flex w-min flex-col items-center lg:flex-row">
-	<pre class="flex h-56 overflow-auto rounded-xl bg-slate-800 drop-shadow-2xl">
+<div class="mx-auto mt-16 flex w-min max-w-full flex-col items-center lg:flex-row">
+	<pre class="flex h-56 max-w-full overflow-auto rounded-xl bg-slate-800 drop-shadow-2xl">
 <div class="hidden select-none pl-4 pr-8 text-right md:block">1
 2
 3
