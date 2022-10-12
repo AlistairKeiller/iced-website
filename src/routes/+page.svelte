@@ -5,7 +5,7 @@
 
 <div class="mx-auto mt-16 flex flex-col items-center space-y-6 text-center">
 	<div class="max-w-5xl text-4xl font-bold text-slate-900 dark:text-slate-100 sm:text-5xl lg:text-6xl">
-		Build type-safe cross-platform GUI applications in <span class="text-red-500 dark:text-red-400">Rust</span>
+		Build reliable cross-platform applications in <span class="text-red-500 dark:text-red-400">Rust</span>
 	</div>
 	<!-- <div class="max-w-3xl text-lg text-slate-600">Iced is Elm inspired with an easy-to-use batteries-included API, a type-safe reactive programming model, cross-platform compatibility for Linux, Windows, Mac, and the Web, modular components, and a performant architecture.</div> -->
 	<div class="flex justify-center space-x-6">
