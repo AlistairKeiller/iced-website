@@ -1,3 +1,7 @@
+<script lang="ts">
+	import demo from '$lib/demo.mp4';
+</script>
+
 <svelte:head>
 	<title>Iced Homepage</title>
 	<meta name="description" content="Iced Rust cross platform type safe performant GUI framework DirectX 12, DX12, Vulkan, Metal simple easy to use responsive batteries included API" />
@@ -144,7 +148,7 @@
 </pre>
 	<div class="m-10 w-[140px] overflow-hidden rounded-lg drop-shadow-2xl">
 		<video loop autoplay controls>
-			<source src="demo.mp4" type="video/mp4" />
+			<source src={demo} />
 			<track kind="captions" />
 		</video>
 	</div>
