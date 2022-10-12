@@ -38,7 +38,7 @@
 </div>
 
 <div class="mx-auto mt-16 flex w-min flex-col items-center lg:flex-row">
-	<pre class="flex h-56 overflow-auto rounded-xl bg-slate-800">
+	<pre class="flex h-56 overflow-auto rounded-xl bg-slate-800 drop-shadow-2xl">
 <div class="hidden select-none pl-4 pr-8 text-right md:block">1
 2
 3
@@ -142,7 +142,7 @@
 <span class="text-yellow-400">{`}`}</span>
 </code>
 </pre>
-	<div class="m-10 w-[140px] overflow-hidden rounded-lg">
+	<div class="m-10 w-[140px] overflow-hidden rounded-lg drop-shadow-2xl">
 		<video loop autoplay controls>
 			<source src="demo.mp4" type="video/mp4" />
 			<track kind="captions" />
