@@ -25,6 +25,10 @@
 	:global(body) {
 		background-color: #e2e8f0;
 	}
+	:global(canvas) {
+		margin-left: auto;
+		margin-right: auto;
+	}
 	@media (prefers-color-scheme: dark) {
 		:global(body) {
 			background-color: #0f172a;
