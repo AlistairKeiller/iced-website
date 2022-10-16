@@ -28,6 +28,7 @@
 	:global(canvas) {
 		margin-left: auto;
 		margin-right: auto;
+		max-width: 100%;
 	}
 	@media (prefers-color-scheme: dark) {
 		:global(body) {
