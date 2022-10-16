@@ -8,8 +8,8 @@
 		Build reliable cross-platform applications in <span class="text-red-5 @dark:text-red-4">Rust</span>
 	</div>
 	<div class="flex justify-center space-x-6">
-		<a class="rounded-lg bg-sky-5 px-4 py-3 font-semibold text-white drop-shadow-2xl hover:bg-sky-4" href="https://docs.rs/iced/">Get Started</a>
-		<a class="rounded-lg bg-slate-6 px-4 py-3 font-semibold text-white drop-shadow-2xl hover:bg-slate-5 @dark:bg-slate-8 @dark:hover:bg-slate-7" href="https://docs.rs/iced/">Contribute</a>
+		<a class="rounded-lg bg-sky-5 px-4 py-3 font-semibold text-white drop-shadow-2xl hover:bg-sky-4" href="https://docs.rs/iced">Get Started</a>
+		<a class="rounded-lg bg-slate-6 px-4 py-3 font-semibold text-white drop-shadow-2xl hover:bg-slate-5 @dark:bg-slate-8 @dark:hover:bg-slate-7" href="https://github.com/iced-rs/iced">Contribute</a>
 	</div>
 </div>
 
