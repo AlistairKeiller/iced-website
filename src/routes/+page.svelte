@@ -7,7 +7,7 @@
 	<meta name="description" content="Iced is a cross platform type-safe, blazingly fast, performant, and reactive GUI framework written in Rust with support for DirectX 12, Vulkan, and Metal. Iced's batteries included API makes Iced simple and easy to use." />
 </svelte:head>
 
-<div class="mt-16 flex flex-col gap-6 items-center text-center">
+<div class="mt-24 flex flex-col gap-6 items-center text-center">
 	<div class="max-w-5xl text-4xl font-bold text-slate-9 @dark:text-slate-1 sm:text-5xl lg:text-6xl">
 		Build reliable cross-platform applications in <span class="text-red-5 @dark:text-red-4">Rust</span>
 	</div>
@@ -17,7 +17,7 @@
 	</div>
 </div>
 
-<div class="mx-auto mt-16 grid max-w-7xl grid-cols-1 gap-6 text-center text-slate-7 @dark:text-slate-2 sm:grid-cols-2 lg:grid-cols-4">
+<div class="mt-20 mx-auto grid max-w-7xl grid-cols-1 gap-6 text-center text-slate-7 @dark:text-slate-2 sm:grid-cols-2 lg:grid-cols-4">
 	<div class="flex flex-col items-center">
 		<div class="i-material-symbols-verified-outline-rounded text-8xl" />
 		<div class="text-4xl">Easy to use</div>
@@ -40,7 +40,7 @@
 	</div>
 </div>
 
-<div class="mx-auto mt-16 flex w-min max-w-full flex-col items-center lg:flex-row gap-6">
+<div class="mt-20 mx-auto flex w-min max-w-full flex-col items-center lg:flex-row gap-6">
 	<pre class="flex h-96 max-w-full overflow-auto rounded-lg bg-slate-8 drop-shadow-2xl">
 <div class="hidden select-none pl-4 pr-8 text-right md:block text-slate-4">1
 2
