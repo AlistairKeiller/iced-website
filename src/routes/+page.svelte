@@ -1,13 +1,17 @@
+<script lang="ts">
+	import demo from '$lib/demo.gif';
+</script>
+
 <svelte:head>
 	<title>Iced Homepage</title>
-	<meta name="description" content="Iced: A cross platform type-safe blazingly fast performant reactive GUI framework written in Rust with support for DirectX 12, Vulkan, and Metal. It is simple andeasy to use because of its batteries included API." />
+	<meta name="description" content="Iced is a cross platform type-safe, blazingly fast, performant, and reactive GUI framework written in Rust with support for DirectX 12, Vulkan, and Metal. Iced's batteries included API makes Iced simple and easy to use." />
 </svelte:head>
 
-<div class="mt-16 flex flex-col space-y-6 items-center text-center">
+<div class="mt-16 flex flex-col gap-6 items-center text-center">
 	<div class="max-w-5xl text-4xl font-bold text-slate-9 @dark:text-slate-1 sm:text-5xl lg:text-6xl">
 		Build reliable cross-platform applications in <span class="text-red-5 @dark:text-red-4">Rust</span>
 	</div>
-	<div class="flex justify-center space-x-6">
+	<div class="flex justify-center gap-6">
 		<a class="rounded-lg bg-sky-5 px-4 py-3 font-semibold text-white drop-shadow-2xl hover:bg-sky-4" href="https://docs.rs/iced">Get Started</a>
 		<a class="rounded-lg bg-slate-6 px-4 py-3 font-semibold text-white drop-shadow-2xl hover:bg-slate-5 @dark:bg-slate-8 @dark:hover:bg-slate-7" href="https://github.com/iced-rs/iced">Contribute</a>
 	</div>
@@ -36,7 +40,7 @@
 	</div>
 </div>
 
-<div class="mx-auto mt-16 flex w-min max-w-full flex-col items-center lg:flex-row">
+<div class="mx-auto mt-16 flex w-min max-w-full flex-col items-center lg:flex-row gap-6">
 	<pre class="flex h-96 max-w-full overflow-auto rounded-lg bg-slate-8 drop-shadow-2xl">
 <div class="hidden select-none pl-4 pr-8 text-right md:block text-slate-4">1
 2
@@ -141,4 +145,8 @@
 <span class="text-yellow-4">{`}`}</span>
 </code>
 </pre>
+	<div class="flex flex-col gap-6">
+		<img class="rounded-lg" src={demo} alt="Demo of a counter in Iced" />
+		<a class="rounded-lg bg-slate-6 px-4 py-3 font-semibold text-white drop-shadow-2xl hover:bg-slate-5 @dark:bg-slate-8 @dark:hover:bg-slate-7 text-center" href="demo">Demo</a>
+	</div>
 </div>
