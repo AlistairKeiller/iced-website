@@ -20,7 +20,7 @@
 	<div class="flex items-center gap-8">
 		<div class="rounded-full p-2 flex gap-1 drop-shadow-2xl bg-white @dark:bg-slate-8">
 			<div class="i-material-symbols-search-rounded text-2xl" />
-			<input bind:this={input} class="bg-inherit focus:outline-none placeholder-current" placeholder="Quick Search                  Ctrl K" />
+			<input bind:this={input} class="bg-inherit focus:outline-none placeholder-current" placeholder="Quick Search                 Ctrl K" />
 		</div>
 		<a class="hidden hover:text-sky-4 sm:block" href="/documentation/introduction">Guide</a>
 		<a class="hidden hover:text-sky-4 sm:block" href="https://docs.rs/iced/latest/iced">Docs</a>
