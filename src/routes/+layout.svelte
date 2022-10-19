@@ -23,7 +23,7 @@
 		Ctrl K
 	</div>
 	<div class="flex items-center md:gap-8">
-		<a class="p-5 rounded-lg hover:text-sky-4 hover:bg-slate-4 @dark:hover:bg-slate-7 md:p-0 md:hover:bg-slate-2 @dark:md:hover:bg-slate-9" href="https://book.iced.rs">Guide</a>
+		<a class="p-5 rounded-lg hover:text-sky-4 hover:bg-slate-4 @dark:hover:bg-slate-7 md:p-0 md:hover:bg-slate-2 @dark:md:hover:bg-slate-9" href="/documentation/introduction">Guide</a>
 		<a class="p-5 rounded-lg hover:text-sky-4 hover:bg-slate-4 @dark:hover:bg-slate-7 md:p-0 md:hover:bg-slate-2 @dark:md:hover:bg-slate-9" href="https://docs.rs/iced/latest/iced">Docs</a>
 		<a class="p-5 rounded-lg hover:text-sky-4 hover:bg-slate-4 @dark:hover:bg-slate-7 md:p-0 md:hover:bg-slate-2 @dark:md:hover:bg-slate-9" href="https://discord.gg/3xZJ65GAhd" aria-label="Iced Discord">
 			<div class="i-ic-baseline-discord text-2xl" />
