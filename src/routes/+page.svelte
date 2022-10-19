@@ -7,14 +7,13 @@
 	<meta name="description" content="Iced is a cross platform type-safe, blazingly fast, performant, and reactive GUI framework written in Rust with support for DirectX 12, Vulkan, and Metal. Iced's batteries included API makes Iced simple and easy to use." />
 </svelte:head>
 
-<div class="mt-24 flex flex-col gap-6 items-center text-center">
-	<div class="max-w-5xl text-4xl font-bold text-slate-9 @dark:text-slate-1 sm:text-5xl lg:text-6xl">
-		Build reliable cross-platform applications in <span class="text-red-5 @dark:text-red-4">Rust</span>
-	</div>
-	<div class="flex justify-center gap-6">
-		<a class="rounded-lg bg-sky-5 px-4 py-3 font-semibold text-white drop-shadow-2xl hover:bg-sky-4" href="https://docs.rs/iced">Get Started</a>
-		<a class="rounded-lg bg-slate-6 px-4 py-3 font-semibold text-white drop-shadow-2xl hover:bg-slate-5 @dark:bg-slate-8 @dark:hover:bg-slate-7" href="https://github.com/iced-rs/iced">Contribute</a>
-	</div>
+<div class="text-center mt-28 mx-auto max-w-5xl text-4xl font-bold text-slate-9 @dark:text-slate-1 sm:text-5xl lg:text-6xl">
+	Build reliable cross-platform applications in <span class="text-red-5 @dark:text-red-4">Rust</span>
+</div>
+
+<div class="mt-6 flex justify-center gap-6 text-white font-semibold">
+	<a class="rounded-lg px-4 py-3 drop-shadow-2xl bg-sky-5 hover:bg-sky-4" href="/documentation/introduction">Get Started</a>
+	<a class="rounded-lg px-4 py-3 drop-shadow-2xl bg-slate-6 hover:bg-slate-5 @dark:bg-slate-8 @dark:hover:bg-slate-7" href="https://github.com/iced-rs/iced">Contribute</a>
 </div>
 
 <div class="mt-20 mx-auto grid max-w-7xl grid-cols-1 gap-6 text-center text-slate-7 @dark:text-slate-2 sm:grid-cols-2 lg:grid-cols-4">
