@@ -2,16 +2,9 @@
 	import 'prism-themes/themes/prism-vsc-dark-plus.css';
 </script>
 
-<div class="flex">
-	<!-- <nav class="mt-5 ml-5 font-bold text-slate-9 @dark:text-slate-1">
-		<ul>
-			<li><a href="/documentation/introduction">Introduction</a></li>
-		</ul>
-	</nav> -->
-	<article class="prose prose-slate @dark:prose-invert lg:text-lg mx-auto mt-20">
-		<slot />
-	</article>
-</div>
+<article class="prose prose-slate @dark:prose-invert lg:text-lg mx-auto mt-20">
+	<slot />
+</article>
 
 <style>
 	:global(.icon-link) {

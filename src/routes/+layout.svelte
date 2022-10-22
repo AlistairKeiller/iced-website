@@ -1,6 +1,7 @@
 <script lang="ts">
 	import 'uno.css';
 	import '@unocss/reset/tailwind.css';
+	import { page } from '$app/stores';
 
 	let input: HTMLInputElement;
 
@@ -22,7 +23,7 @@
 			<div class="i-material-symbols-search-rounded text-2xl" />
 			<input bind:this={input} class="bg-inherit focus:outline-none placeholder-current" placeholder="Quick Search                 Ctrl K" />
 		</div>
-		<a class="hidden hover:text-sky-4 sm:block" href="/documentation/introduction">Guide</a>
+		<a class="hidden hover:text-sky-4 sm:block" href="/docs/what_is_iced/overview">Guide</a>
 		<a class="hidden hover:text-sky-4 sm:block" href="https://docs.rs/iced/latest/iced">Docs</a>
 		<a class="hidden hover:text-sky-4 sm:block" href="https://discord.gg/3xZJ65GAhd" aria-label="Iced Discord">
 			<div class="i-ic-baseline-discord text-2xl" />
@@ -33,7 +34,26 @@
 	</div>
 </nav>
 
-<slot />
+<nav class="fixed left-0 top-16 overflow-auto text-slate-7 @dark:text-slate-2 text-xl z-40 hidden sm:block">
+	{#if $page.routeId?.startsWith('docs/')}
+		<ul class="mt-3 ml-3">
+			<li>
+				<a class="hover:text-sky-4" href="/docs/what_is_iced/overview">🔎 What is Iced?</a>
+				<ul class="ml-3">
+					<li><a class="hover:text-sky-4" href="/docs/what_is_iced/overview">📖 Overview</a></li>
+					<li><a class="hover:text-sky-4" href="/docs/what_is_iced/features">Features</a></li>
+					<li><a class="hover:text-sky-4" href="/docs/what_is_iced/roadmap">🛣️ Roadmap</a></li>
+					<li><a class="hover:text-sky-4" href="/docs/what_is_iced/philosophy">Philosophy</a></li>
+					<li><a class="hover:text-sky-4" href="/docs/what_is_iced/performance">Performance</a></li>
+				</ul>
+			</li>
+		</ul>
+	{/if}
+</nav>
+
+<div class="sm:ml-20">
+	<slot />
+</div>
 
 <svelte:window on:keydown={keyDown} />
 

@@ -12,7 +12,7 @@
 </div>
 
 <div class="mt-6 flex justify-center gap-6 text-white font-semibold">
-	<a class="rounded-lg px-4 py-3 drop-shadow-2xl bg-sky-5 hover:bg-sky-4" href="/documentation/introduction">Get Started</a>
+	<a class="rounded-lg px-4 py-3 drop-shadow-2xl bg-sky-5 hover:bg-sky-4" href="/docs/what_is_iced/overview">Get Started</a>
 	<a class="rounded-lg px-4 py-3 drop-shadow-2xl bg-slate-6 hover:bg-slate-5 @dark:bg-slate-8 @dark:hover:bg-slate-7" href="https://github.com/iced-rs/iced">Contribute</a>
 </div>
 
