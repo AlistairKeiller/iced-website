@@ -41,8 +41,8 @@
 	</div>
 </nav>
 
-<nav class="sticky float-left top-16 overflow-auto border-r-2 border-b-2 text-slate-7 bg-slate-1 border-slate-3 @dark:text-slate-2 @dark:bg-slate-9 @dark:border-slate-8 text-xl z-40 sm:block" class:hidden={sidebarClosed} class:sm:hidden={!$page.routeId?.startsWith('docs/')}>
-	<ul class="sm:hidden m-3 font-semibold">
+<nav class="fixed float-left top-16 p-3 overflow-auto border-r-2 border-b-2 text-slate-7 bg-slate-1 border-slate-3 @dark:text-slate-2 @dark:bg-slate-9 @dark:border-slate-8 lg:text-lg z-40 sm:block" class:hidden={sidebarClosed} class:sm:hidden={!$page.routeId?.startsWith('docs/')}>
+	<ul class="font-semibold sm:hidden">
 		<li class="my-2"><a class="hover:text-sky-4" href="/docs/what_is_iced/overview">Guide</a></li>
 		<li class="my-2"><a class="hover:text-sky-4" href="https://docs.rs/iced/latest/iced">Docs</a></li>
 		<li class="my-2">
@@ -56,15 +56,15 @@
 			</a>
 		</li>
 	</ul>
-	<ul class="m-3" class:hidden={!$page.routeId?.startsWith('docs/')}>
+	<ul class:hidden={!$page.routeId?.startsWith('docs/')}>
 		<li>
-			<a class="hover:text-sky-4" href="/docs/what_is_iced/overview">🔎 What is Iced?</a>
-			<ul class="ml-3">
-				<li><a class="hover:text-sky-4" href="/docs/what_is_iced/overview">📖 Overview</a></li>
-				<li><a class="hover:text-sky-4" href="/docs/what_is_iced/features">Features</a></li>
-				<li><a class="hover:text-sky-4" href="/docs/what_is_iced/roadmap">🛣️ Roadmap</a></li>
-				<li><a class="hover:text-sky-4" href="/docs/what_is_iced/philosophy">Philosophy</a></li>
-				<li><a class="hover:text-sky-4" href="/docs/what_is_iced/performance">Performance</a></li>
+			<a class="hover:text-sky-4 font-semibold text-lg lg:text-xl" href="/docs/what_is_iced/overview">What is Iced?</a>
+			<ul class="my-3">
+				<li class="my-2"><a class="hover:text-sky-4" href="/docs/what_is_iced/overview">Overview</a></li>
+				<li class="my-2"><a class="hover:text-sky-4" href="/docs/what_is_iced/features">Features</a></li>
+				<li class="my-2"><a class="hover:text-sky-4" href="/docs/what_is_iced/roadmap">Roadmap</a></li>
+				<li class="my-2"><a class="hover:text-sky-4" href="/docs/what_is_iced/philosophy">Philosophy</a></li>
+				<li class="my-2"><a class="hover:text-sky-4" href="/docs/what_is_iced/performance">Performance</a></li>
 			</ul>
 		</li>
 	</ul>
