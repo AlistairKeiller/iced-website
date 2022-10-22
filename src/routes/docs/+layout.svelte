@@ -2,7 +2,7 @@
 	import 'prism-themes/themes/prism-vsc-dark-plus.css';
 </script>
 
-<article class="prose prose-slate @dark:prose-invert lg:text-lg mx-auto mt-20">
+<article class="prose prose-slate @dark:prose-invert lg:text-lg mx-auto mt-10">
 	<slot />
 </article>
 

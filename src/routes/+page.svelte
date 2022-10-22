@@ -7,7 +7,7 @@
 	<meta name="description" content="Iced is a cross platform type-safe, blazingly fast, performant, and reactive GUI framework written in Rust with support for DirectX 12, Vulkan, and Metal. Iced's batteries included API makes Iced simple and easy to use." />
 </svelte:head>
 
-<div class="text-center mt-28 mx-auto max-w-5xl text-4xl font-bold text-slate-9 @dark:text-slate-1 sm:text-5xl lg:text-6xl">
+<div class="text-center mt-20 mx-auto max-w-5xl text-4xl font-bold text-slate-9 @dark:text-slate-1 sm:text-5xl lg:text-6xl">
 	Build reliable cross-platform applications in <span class="text-red-5 @dark:text-red-4">Rust</span>
 </div>
 
