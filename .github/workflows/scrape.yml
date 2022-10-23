@@ -1,8 +1,5 @@
 name: Scrape Documentation
-on:
-  push:
-    branches:
-      - master
+on: [push]
 
 jobs:
   scrape-docs:
