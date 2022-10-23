@@ -12,6 +12,6 @@ jobs:
           docker run -t --rm \
           -e MEILISEARCH_HOST_URL=http://192.9.236.58 \
           -e MEILISEARCH_API_KEY=myMasterKey \
-          -v $CONFIG_FILE_PATH:/docs-scraper/config.json \
+          -v ${{ github.workspace }}/docs-scraper.config.json:/docs-scraper/config.json \
           getmeili/docs-scraper:latest pipenv run ./docs_scraper config.json
           echo $HOST_URL
