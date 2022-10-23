@@ -12,6 +12,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
+		"@alexanderniebuhr/prettier-plugin-unocss": "^0.0.4",
 		"@iconify/json": "^2.1.122",
 		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",

@@ -7,23 +7,23 @@
 	<meta name="description" content="Iced is a cross platform type-safe, blazingly fast, performant, and reactive GUI framework written in Rust with support for DirectX 12, Vulkan, and Metal. Iced's batteries included API makes Iced simple and easy to use." />
 </svelte:head>
 
-<div class="text-center mt-20 mx-auto max-w-5xl text-4xl font-bold text-slate-9 @dark:text-slate-1 sm:text-5xl lg:text-6xl">
+<div class="mx-auto mt-20 max-w-5xl font-bold text-4xl text-center text-slate-9 @dark:text-slate-1 sm:text-5xl lg:text-6xl">
 	Build reliable cross-platform applications in <span class="text-red-5 @dark:text-red-4">Rust</span>
 </div>
 
-<div class="mt-6 flex justify-center gap-6 text-white font-semibold">
-	<a class="rounded-lg px-4 py-3 drop-shadow-2xl bg-sky-5 hover:bg-sky-4" href="/docs/what_is_iced/overview">Get Started</a>
-	<a class="rounded-lg px-4 py-3 drop-shadow-2xl bg-slate-6 hover:bg-slate-5 @dark:bg-slate-8 @dark:hover:bg-slate-7" href="https://github.com/iced-rs/iced">Contribute</a>
+<div class="mt-6 flex justify-center gap-6 font-semibold text-white">
+	<a class="rounded-lg bg-sky-5 px-4 py-3 drop-shadow-2xl hover:bg-sky-4" href="/docs/what_is_iced/overview">Get Started</a>
+	<a class="rounded-lg bg-slate-6 px-4 py-3 drop-shadow-2xl hover:bg-slate-5 @dark:bg-slate-8 @dark:hover:bg-slate-7" href="https://github.com/iced-rs/iced">Contribute</a>
 </div>
 
-<div class="mt-20 mx-auto grid max-w-7xl grid-cols-1 gap-6 text-center text-slate-7 @dark:text-slate-2 sm:grid-cols-2 lg:grid-cols-4">
+<div class="grid grid-cols-1 mx-auto mt-20 max-w-7xl gap-6 text-center text-slate-7 @dark:text-slate-2 sm:grid-cols-2 lg:grid-cols-4">
 	<div class="flex flex-col items-center">
-		<div class="i-material-symbols-verified-outline-rounded text-8xl" />
+		<div class="text-8xl i-material-symbols-verified-outline-rounded" />
 		<div class="text-4xl">Easy to use</div>
 		<div class="mt-4 text-slate-5 @dark:text-slate-4">Batteries-included API to get started quickly and create your own widgets easily.</div>
 	</div>
 	<div class="flex flex-col items-center">
-		<div class="i-material-symbols-lock-outline text-8xl" />
+		<div class="text-8xl i-material-symbols-lock-outline" />
 		<div class="text-4xl">Type-safe</div>
 		<div class="mt-4 text-slate-5 @dark:text-slate-4">Iced uses reactive programming model to ensure your UI is meaningful.</div>
 	</div>
@@ -33,15 +33,15 @@
 		<div class="mt-4 text-slate-5 @dark:text-slate-4">Custom renderers for every context, from native to the web.</div>
 	</div>
 	<div class="flex flex-col items-center">
-		<div class="i-material-symbols-grid-view-outline-rounded text-8xl" />
+		<div class="text-8xl i-material-symbols-grid-view-outline-rounded" />
 		<div class="text-4xl">Modular</div>
 		<div class="mt-4 text-slate-5 @dark:text-slate-4">Iced ecosystem is split into many different reusable parts.</div>
 	</div>
 </div>
 
-<div class="mt-20 mx-auto flex w-min max-w-full flex-col items-center lg:flex-row gap-6">
-	<pre class="flex h-96 max-w-full overflow-auto rounded-lg bg-slate-8 drop-shadow-2xl">
-<div class="hidden select-none pl-4 pr-8 text-right md:block text-slate-4">1
+<div class="mx-auto mt-20 max-w-full w-min flex flex-col items-center gap-6 lg:flex-row">
+	<pre class="h-96 max-w-full flex overflow-auto rounded-lg bg-slate-8 drop-shadow-2xl">
+<div class="hidden select-none pl-4 pr-8 text-right text-slate-4 md:block">1
 2
 3
 4
@@ -146,6 +146,6 @@
 </pre>
 	<div class="flex flex-col gap-6">
 		<img class="rounded-lg" src={demo} alt="Demo of a counter in Iced" />
-		<a class="rounded-lg bg-slate-6 px-4 py-3 font-semibold text-white drop-shadow-2xl hover:bg-slate-5 @dark:bg-slate-8 @dark:hover:bg-slate-7 text-center" href="demo">Demo</a>
+		<a class="rounded-lg bg-slate-6 px-4 py-3 font-semibold text-center text-white drop-shadow-2xl hover:bg-slate-5 @dark:bg-slate-8 @dark:hover:bg-slate-7" href="demo">Demo</a>
 	</div>
 </div>
