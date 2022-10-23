@@ -1,0 +1,23 @@
+name: Scrape Documentation
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  scrape-docs:
+    runs-on: ubuntu-latest
+    name: scrape and push content on Meilisearch instance
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run docs-scraper
+        env:
+          HOST_URL: ${{ secrets.MEILISEARCH_HOST_URL }}
+          API_KEY: ${{ secrets.MEILISEARCH_API_KEY }}
+          CONFIG_FILE_PATH: ${{ github.workspace }}/docs-scraper.config.json
+        run: |
+          docker run -t --rm \
+          -e MEILISEARCH_HOST_URL=$HOST_URL \
+          -e MEILISEARCH_API_KEY=$API_KEY \
+          -v $CONFIG_FILE_PATH:/docs-scraper/config.json \
+          getmeili/docs-scraper:latest pipenv run ./docs_scraper config.json
