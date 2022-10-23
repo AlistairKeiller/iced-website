@@ -1,27 +1,7 @@
-<div align="center">
-
-<img src="docs/logo.svg" width="140px" />
-
 # Iced
-
-[![Documentation](https://docs.rs/iced/badge.svg)][documentation]
-[![Crates.io](https://img.shields.io/crates/v/iced.svg)](https://crates.io/crates/iced)
-[![License](https://img.shields.io/crates/l/iced.svg)](https://github.com/iced-rs/iced/blob/master/LICENSE)
-[![Downloads](https://img.shields.io/crates/d/iced.svg)](https://crates.io/crates/iced)
-[![Test Status](https://img.shields.io/github/workflow/status/iced-rs/iced/Test?event=push&label=test)](https://github.com/iced-rs/iced/actions)
-[![Discord Server](https://img.shields.io/discord/628993209984614400?label=&labelColor=6A7EC2&logo=discord&logoColor=ffffff&color=7389D8)](https://discord.gg/3xZJ65GAhd)
 
 A cross-platform GUI library for Rust focused on simplicity and type-safety.
 Inspired by [Elm].
-
-<a href="https://gfycat.com/littlesanehalicore">
-  <img src="https://thumbs.gfycat.com/LittleSaneHalicore-small.gif" height="350px">
-</a>
-<a href="https://gfycat.com/politeadorableiberianmole">
-  <img src="https://thumbs.gfycat.com/PoliteAdorableIberianmole-small.gif" height="350px">
-</a>
-
-</div>
 
 ## Features
 
@@ -43,25 +23,6 @@ Inspired by [Elm].
 
 **Iced is currently experimental software.** [Take a look at the roadmap],
 [check out the issues], and [feel free to contribute!]
-
-[cross-platform support]: https://raw.githubusercontent.com/iced-rs/iced/master/docs/images/todos_desktop.jpg
-[the web]: https://github.com/iced-rs/iced_web
-[text inputs]: https://gfycat.com/alertcalmcrow-rust-gui
-[scrollables]: https://gfycat.com/perkybaggybaboon-rust-gui
-[debug overlay with performance metrics]: https://gfycat.com/incredibledarlingbee
-[modular ecosystem]: ECOSYSTEM.md
-[renderer-agnostic native runtime]: native/
-[`wgpu`]: https://github.com/gfx-rs/wgpu
-[`glow`]: https://github.com/grovesNL/glow
-[`iced_wgpu`]: wgpu/
-[`iced_glow`]: glow/
-[built-in renderers]: ECOSYSTEM.md#Renderers
-[windowing shell]: winit/
-[`dodrio`]: https://github.com/fitzgen/dodrio
-[web runtime]: https://github.com/iced-rs/iced_web
-[take a look at the roadmap]: ROADMAP.md
-[check out the issues]: https://github.com/iced-rs/iced/issues
-[feel free to contribute!]: #contributing--feedback
 
 ## Installation
 
@@ -183,19 +144,6 @@ implemented the current [tour example] on top of [`ggez`], a game library.
 Since then, the focus has shifted towards providing a batteries-included,
 end-user-oriented GUI library, while keeping [the ecosystem] modular:
 
-<p align="center">
-  <a href="ECOSYSTEM.md">
-    <img alt="The Iced Ecosystem" src="docs/graphs/ecosystem.png" width="80%">
-  </a>
-</p>
-
-[this pull request]: https://github.com/hecrj/coffee/pull/35
-[the first alpha version]: https://github.com/iced-rs/iced/tree/0.1.0-alpha
-[a renderer-agnostic gui library]: https://www.reddit.com/r/rust/comments/czzjnv/iced_a_rendereragnostic_gui_library_focused_on/
-[tour example]: examples/README.md#tour
-[`ggez`]: https://github.com/ggez/ggez
-[the ecosystem]: ECOSYSTEM.md
-
 ## Troubleshooting
 
 ### `GraphicsAdapterNotFound`
@@ -221,8 +169,6 @@ iced = { version = "0.4", default-features = false, features = ["glow"] }
 **NOTE:** Chances are you have hardware that supports at least OpenGL 2.1 or OpenGL ES 2.0,
 but if you don't, right now there's no software fallback, so it means your hardware
 doesn't support Iced.
-
-[built-in renderer]: https://github.com/iced-rs/iced/blob/master/ECOSYSTEM.md#Renderers
 
 ## Contributing / Feedback
 
